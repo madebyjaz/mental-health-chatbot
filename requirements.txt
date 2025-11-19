@@ -1,0 +1,43 @@
+# Core ML & Transformers
+transformers>=4.44.0
+datasets>=2.18.0
+accelerate>=0.30.0
+sentencepiece
+protobuf
+numpy
+scikit-learn
+seaborn
+
+# Tokenizers & Text Utilities
+tokenizers>=0.19.0
+
+# PyTorch (required for all your models)
+torch>=2.1.0
+
+# Web Interface (choose one or use both)
+gradio>=4.0.0
+flask>=3.0.0
+streamlit>=1.0.0
+
+# Visualization for Emotion Trends
+matplotlib
+plotly
+
+# HuggingFace Hub for pushing datasets/models
+huggingface_hub>=0.22.0
+
+# Safety / Regex Guards
+regex
+
+# Optional Utilities
+tqdm
+rich
+typing 
+argparse
+kagglehub
+
+# Optional (for dataframes + CSV viewing)
+pandas
+
+
+
