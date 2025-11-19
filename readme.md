@@ -83,7 +83,7 @@ This creates a chatbot that is **empathetic**, **situationally aware**, and **sa
 
 ---
 
-## 3. **Web Interface (Streamlit)**
+## 3. **Web Interface Using StreamLit**
 A simple, fast, lightweight UI using Streamlit.
 
 ### 🧩 Features:
