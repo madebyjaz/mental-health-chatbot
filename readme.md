@@ -32,8 +32,8 @@ The system is composed of **three core components**:
 These models analyze the user’s input and provide signals that shape the chatbot’s tone, strategy, and safety.
 
 ### **Emotion Classifier (GoEmotions / Electra-Base)**
-- Model: `google/electra-base-goemotions`
-- Detects **27 fine-grained emotions** (sadness, joy, fear, disappointment, confusion, etc.)
+- Model: `google/electra-base-discriminator`
+- Detects **28 fine-grained emotions** (sadness, joy, fear, disappointment, confusion, etc. + neutral)
 - Output informs **empathy level**, tone, and conversational style
 
 ### **Intent Classifier (Zero-Shot MNLI Model)**
