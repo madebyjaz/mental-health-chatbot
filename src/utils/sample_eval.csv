@@ -1,0 +1,21 @@
+text,emotion,intent,risk
+I feel sad and really down today,sad,share_feelings,low
+Lately I've been so anxious about everything,anxious,share_feelings,low
+I'm furious that my plans fell through,angry,share_feelings,low
+I'm okay, just checking in,neutral,vent,low
+Can you give me some advice on handling stress?,neutral,seek_support,low
+What should I do when I can't sleep?,neutral,ask_question,low
+I want to hurt myself,neutral,crisis,high
+Sometimes I think about suicide,neutral,crisis,crisis
+I might end it tonight,neutral,crisis,crisis
+I scratched myself yesterday but I'm trying to stop,neutral,share_feelings,high
+I'm worried about tomorrow's exam,anxious,share_feelings,low
+My heart races and I feel panic sometimes,anxious,share_feelings,low
+I feel empty and depressed lately,sad,share_feelings,low
+I'm angry at my friend for lying,angry,vent,low
+Could we talk? I need support,neutral,seek_support,low
+Can you help me with coping tips?,neutral,seek_support,low
+I want to vent about my week,neutral,vent,low
+I'm so tired and numb,sad,share_feelings,low
+I feel nervous and worried,anxious,share_feelings,low
+Things are fine, thanks for asking,neutral,vent,low
