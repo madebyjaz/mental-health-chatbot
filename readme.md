@@ -108,24 +108,32 @@ streamlit run src/app/app.py
 src/
 ├── classifiers/
 │   ├── training.py
-│   
-│   
-│   
+│   ├── emotion_classifier.py
+│   ├── intent_classifier.py
+│   ├── risk_classifier.py
 │
 ├── dialogue/
 │   ├── dialogue_manager.py
-│   
+│   ├── strategy_rules.py
 │
 ├── generation/
-│   
+│   ├── nlg_generator.py
 │
 ├── app/
 │   ├── app.py
 │
 ├── utils/
-│   
-│   
-│___
+│   ├── evaluate.py
+│   ├── sample_eval.csv
+│
+├── mental_health/
+│   ├── bin/
+│   ├── etc/
+│   ├── include/
+│   ├── lib/
+│   ├── share/
+│   ├── .gitignore
+│   ├── pyvenv.cfg
 ```
 
 Models are stored under:
@@ -180,10 +188,10 @@ No generative output is used.
 
 # 📌 Status
 ✔ Classifier architecture finalized  
-⬜ Dialogue Manager implemented  
-⬜ Generation system implemented  
-⬜ UI created  
-⬜ (Optional) Fine-tune emotion + risk locally  
+✔  Dialogue Manager implemented  
+✔  Generation system implemented  
+✔  UI created  
+✔  (Optional) Fine-tune emotion + risk locally  
 ⬜ Add visualization of emotion trends (if time allows)
 
 ## 📚 References 
